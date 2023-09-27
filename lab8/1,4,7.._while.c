@@ -1,10 +1,15 @@
 #include<stdio.h>
 void main(){
-	int i=1;
+	// compiler problem
+	int i=1,count=0;
 	
-	while(i<=50)
+	while(count<=50)
 	{
+		
+		count=count+1;
 		printf("%d\n",i);
 		i=i+3;
 	}
+	
+	
 }
